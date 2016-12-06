@@ -1,0 +1,31 @@
+{
+  "name": "domat",
+  "version": "1.0.0",
+  "description": "1. **Tworzenie projektu**",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Piotr Frydryszak",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-fontello-config": "^1.2.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "source-map": "^0.5.6",
+    "stream-series": "^0.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sulabasana/Firma.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sulabasana/Firma/issues"
+  },
+  "homepage": "https://github.com/Sulabasana/Firma#readme"
+}

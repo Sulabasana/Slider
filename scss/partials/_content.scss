@@ -1,0 +1,103 @@
+ul.images {
+  list-style-type: none;
+  margin: 1em 0 0 0;
+  width: 100%;
+   img{
+  	margin-left: 0;
+  	width: 100%;
+  	// height: 710px; //tu jest pies pogrzebany
+  }
+  	.prev{
+	position: relative;
+	bottom: 4em;
+	text-align: center;
+
+}
+	.next{
+	float:right;
+	position: relative;
+	bottom: 4em;
+	text-align: center;
+
+	}
+}
+//poprawić ostylowanie buttonów wszystkich
+ul.triggers{
+	margin: 0 0 0 40%;
+	li{
+		list-style-type: none;
+		cursor: pointer;
+		display: inline-block;  
+		margin:0 5px 12px 5px; 
+		font: 16px; 
+		cursor: pointer;
+		background-color:#ffffff;
+		color:#000; 
+		padding:0.8em;
+  		height: 13px;
+  		width: 13px;
+  		border-radius: 50%;
+  		transition: background-color 0.6s ease;
+		&:hover{
+		background-color:#808080;
+		}
+	}
+	.active{
+		background-color: #808080; 
+	}
+}
+.control{
+	color: white;
+	cursor: pointer;
+	width:10%;
+	font-weight: bold;
+	font-size: 7em;
+	&:hover{
+		color: #808080;
+	}
+}
+
+.current{
+	font-size: 24px;
+	color: white;
+	position: relative;
+	top: -100px;
+	left: 20px;
+
+}
+.signs{
+	margin: 0 0 0 40%;
+	color: white;
+	.play{
+	font-size: 4em;
+	cursor: pointer;
+	}
+	.pause{
+	margin-left: 0.5em; 
+	font-size: 4em;
+	cursor: pointer;
+	// display:none;
+	}
+}
+form{
+	color: #fff;
+	input{
+		width: 20em;
+	}
+}
+@media (max-width: 768px){
+	form{
+		font-size: 24px;
+		input{
+			font-size: 24px;
+		}
+	}
+	
+}
+@media (max-width: 768px){
+	img{
+  	margin-left: 0;
+  	width: 100%;
+  	height: 710px;
+  }
+}
