@@ -2,17 +2,31 @@ ul.images {
   list-style-type: none;
   margin: 1em 0 0 0;
   width: 100%;
-   img{
-  	margin-left: 0;
-  	width: 100%;
-  	// height: 710px; //tu jest pies pogrzebany
-  }
+   	li{
+		display: none;
+		overflow: hidden;
+  		img{
+	  		margin-left: 0;
+	  		width: 100%;
+	  		height: 70vh;
+	   	}
+	}
+  	.control{
+	color: white;
+	cursor: pointer;
+	width:10%;
+	font-weight: bold;
+	font-size: 7em;
+		&:hover{
+		color: #808080;
+		}
+	}
   	.prev{
 	position: relative;
 	bottom: 4em;
 	text-align: center;
 
-}
+	}
 	.next{
 	float:right;
 	position: relative;
@@ -21,7 +35,6 @@ ul.images {
 
 	}
 }
-//poprawić ostylowanie buttonów wszystkich
 ul.triggers{
 	margin: 0 0 0 40%;
 	li{
@@ -46,24 +59,14 @@ ul.triggers{
 		background-color: #808080; 
 	}
 }
-.control{
-	color: white;
-	cursor: pointer;
-	width:10%;
-	font-weight: bold;
-	font-size: 7em;
-	&:hover{
-		color: #808080;
-	}
-}
+
 
 .current{
 	font-size: 24px;
 	color: white;
 	position: relative;
 	top: -100px;
-	left: 20px;
-
+	
 }
 .signs{
 	margin: 0 0 0 40%;
@@ -73,16 +76,16 @@ ul.triggers{
 	cursor: pointer;
 	}
 	.pause{
-	margin-left: 0.5em; 
 	font-size: 4em;
 	cursor: pointer;
-	// display:none;
 	}
 }
 form{
 	color: #fff;
+	font-size: 26px;
 	input{
 		width: 20em;
+		font-size: 26px;
 	}
 }
 @media (max-width: 768px){
@@ -90,14 +93,16 @@ form{
 		font-size: 24px;
 		input{
 			font-size: 24px;
+			width: 10em;
 		}
 	}
-	
-}
-@media (max-width: 768px){
-	img{
-  	margin-left: 0;
-  	width: 100%;
-  	height: 710px;
-  }
+	ul.images{
+		.control{
+			font-size: 4em;
+			bottom: 6.5em;
+			.next{
+			right: 0.2em;
+			}	
+		}
+	}
 }

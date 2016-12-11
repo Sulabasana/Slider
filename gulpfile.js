@@ -32,7 +32,7 @@ gulp.task('sass', function(){
 	
 	return gulp.src('./scss/main.scss')
 	.pipe(sourcemaps.init())
-	.pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
+	.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
 	.pipe(sourcemaps.write())
 	.pipe(rename('style.css'))
 	.pipe(gulp.dest('./css'));
