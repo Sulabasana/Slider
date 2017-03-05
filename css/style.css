@@ -1,0 +1,30 @@
+*{
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+}
+.slider{
+	max-width: 1200px;
+	
+}
+.slider img{
+	width: 100%;
+	display: none;
+}
+.one img{
+	display: block;
+}
+.click{
+	font-size: 4em;
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+	bottom: 6em;
+}
+.next{
+	float:right;
+}
+
+.triggers{
+	background-color: black;
+}
