@@ -15,16 +15,30 @@
 	display: block;
 }
 .click{
-	font-size: 4em;
+	font-size: 5em;
 	color: #fff;
+	font-weight: bold;
 	cursor: pointer;
 	position: relative;
 	bottom: 6em;
 }
+
 .next{
 	float:right;
 }
-
+.next:hover{
+	color: #9791AB;
+}
+.prev:hover{
+	color: #9791AB;
+}
 .triggers{
 	background-color: black;
+}
+.signs{
+	font-size: 4em;
+	position: relative;
+	bottom: 1em;
+	left: 7em;
+	cursor: pointer;
 }
